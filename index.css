@@ -1,0 +1,375 @@
+#Navigation{
+    display: flex;
+}
+#Navigation p{
+    margin: 10px;
+    max-width: 100%;
+}
+
+.rqst-Quote{
+    border-radius: 8px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.container_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.Button-Consult{
+    border-radius: 10px;
+    height: 50px;
+    display: block;
+    background-color: black;
+    color: white;
+}
+.Judul_horn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: justify;
+}
+
+.img{
+    width: 400px;
+    max-width: 100%;
+}
+p1 {
+    text-align: justify;
+    white-space: normal;
+    overflow-wrap: break-word;
+    padding: 0;
+    font-family: 'Space Grotesk', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    gap: 5%;
+    padding: 5%;
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+
+.Image{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-size: xx-large;
+    margin-bottom: 5%;
+}
+
+.consultation{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.Gallery{
+    display:flex;
+    width: 100%;
+    padding: 15px;
+    gap: 15px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gambar_link{
+    flex: 1;
+    text-decoration: none;
+}
+
+.item{
+    width: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 0;
+}
+.item img{
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3 ease;
+}
+
+.item img:hover{
+    transform: scale(1.03);
+    filter: brightness(90%);
+}
+
+.services{
+    display: flex;
+    gap: 50px;
+}
+
+.services h1{
+    background-color: #B9FF66;
+    color: black;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.grid_products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 10px;
+}
+
+.grid_item1{
+    background-color: grey;
+    padding: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid_item1 h1{
+    background-color: #B9FF66;
+    color: black;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.item1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item1 img{
+    width: 50px;
+}
+
+.Panah1{
+    display: flex;
+    gap: 20px;
+}
+
+.grid_item2{
+    background-color: #B9FF66;
+    padding: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid_item2 h1{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.item2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item2 img{
+    width: 50px;
+}
+
+.Panah1{
+    display: flex;
+    gap: 20px;
+}
+
+.grid_item3{
+    background-color: black;
+    padding: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid_item3 h1{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.item3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item3 img{
+    width: 50px;
+}
+
+.Panah1{
+    display: flex;
+    gap: 20px;
+}
+
+.grid_item4{
+    background-color: grey;
+    padding: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid_item4 h1{
+    background-color: #B9FF66;
+    color: black;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.item4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item4 img{
+    width: 50px;
+}
+
+.Panah1{
+    display: flex;
+    gap: 20px;
+}
+
+.grid_item5{
+    background-color: #B9FF66;
+    padding: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid_item5 h1{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.item5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item5 img{
+    width: 50px;
+}
+
+.Panah1{
+    display: flex;
+    gap: 20px;
+}
+
+.grid_item6{
+    background-color: black;
+    padding: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid_item6 h1{
+    background-color: #B9FF66;
+    color: black;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.item6{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item6 img{
+    width: 50px;
+}
+
+.Panah1{
+    display: flex;
+    gap: 20px;
+}
+
+.getProp{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    background-color: grey;
+    margin: 5%;
+    border-radius: 60px;
+    gap: 40%;
+}
+
+.proposal{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.bprop{
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.workingProcess{
+    display: flex;
+    gap: 50px;
+}
+
+.CaseStudies{
+    display: flex;
+    gap: 50px;
+}
+
+.CaseStudies h1{
+    background-color: #B9FF66;
+    color: black;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.C_Studies{
+    display: flex;
+    gap: 20px;
+    padding: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    margin: 40px;
+}
+
+.line{
+    padding: 1px;
+    background-color: white;
+    margin: 10px;
+}
+
+.workProcess{
+    display: flex;
+    gap: 50px;
+    
+}
+.workProcess h1{
+    padding: 7px;
+    background-color: #B9FF66;
+    border-radius: 8px;
+}
