@@ -337,7 +337,7 @@ h1 {
 
 .CaseStudies{
     display: flex;
-    gap: 50px;
+    gap: 20px;
 }
 
 .CaseStudies h1{
@@ -372,4 +372,312 @@ h1 {
     padding: 7px;
     background-color: #B9FF66;
     border-radius: 8px;
+}
+
+.gridWP{
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+    gap: 50px;
+}
+
+.gridWP1{
+    padding: 20px;
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.gridWP1_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridWP1_1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.gridWP2{
+    padding: 20px;
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.gridWP2_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridWP2_1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.gridWP3{
+    padding: 20px;
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.gridWP3_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridWP3_1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.gridWP4{
+    padding: 20px;
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.gridWP4_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridWP4_1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.gridWP5{
+    padding: 20px;
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.gridWP5_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridWP5_1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.gridWP6{
+    padding: 20px;
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.gridWP6_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridWP6_1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.Team{
+    display: flex;
+    gap: 50px;
+}
+
+.Team h1{
+    padding: 7px;
+    background-color: #B9FF66;
+    border-radius: 8px;
+}
+
+.teamGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    padding: 20px;
+    gap: 50px;
+}
+
+.teamGrid1 {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.JohnSmith{
+    display: flex;
+    gap: 20px;
+
+}
+
+.garisline1 {
+    padding: 1px;
+    background-color: black;
+}
+
+.teamGrid2 {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.JaneDoe{
+    display: flex;
+    gap: 20px;
+
+}
+
+.garisline2 {
+    padding: 1px;
+    background-color: black;
+}
+
+.teamGrid3 {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.MichaelBrown{
+    display: flex;
+    gap: 20px;
+
+}
+
+.garisline3 {
+    padding: 1px;
+    background-color: black;
+}
+
+.teamGrid4 {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.EmilyJohnson{
+    display: flex;
+    gap: 20px;
+
+}
+
+.garisline4 {
+    padding: 1px;
+    background-color: black;
+}
+
+.teamGrid5 {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.BrianWilliams{
+    display: flex;
+    gap: 20px;
+
+}
+
+.garisline5 {
+    padding: 1px;
+    background-color: black;
+}
+
+.teamGrid6 {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.SarahKim{
+    display: flex;
+    gap: 20px;
+
+}
+
+.garisline6 {
+    padding: 1px;
+    background-color: black;
+}
+
+.Testimonials{
+    display: flex;
+    gap: 30px;
+}
+
+.Testimonials h1{
+    padding: 10px;
+    background-color: #B9FF66;
+    border-radius: 8px;
+}
+
+.testimonials1{
+    display: flex;
+    justify-content: center;
+}
+
+.Contacts{
+    display: flex;
+    gap: 30px;
+}
+
+.Contacts h1{
+    padding: 10px;
+    background-color: #B9FF66;
+    border-radius: 8px;
+}
+
+.ContactUs{
+    padding: 20px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.ContactUs img{
+    margin: 0;
+}
+
+.option{
+    display: flex;
+    gap: 50px;
+}
+
+.textFields{
+    display: flex;
+    flex-direction: column;
 }
